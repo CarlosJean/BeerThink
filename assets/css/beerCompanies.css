@@ -1,0 +1,12 @@
+#dvCompanies{
+    visibility: hidden;
+}
+
+#frmBeerCompanies {
+	padding: 20px;
+	border: 1px solid #e9dddd;
+	background: #fcfcfc;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px gray;
+}
