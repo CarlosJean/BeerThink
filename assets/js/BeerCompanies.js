@@ -34,6 +34,7 @@ const populateSelect = (json) => {
 
 const drawCompaniesList = (json) => {
     let companies = JSON.parse(json);
+    if (companies.length == 0) { dvCompanies.css('visibility', 'hidden'); return; }
     dvCompaniesList.empty(); //Limpiar div antes de mostrar datos nuevos.
     companies.forEach(company => {
         let companyName = company["name"],
